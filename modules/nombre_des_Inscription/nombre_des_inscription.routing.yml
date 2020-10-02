@@ -1,0 +1,7 @@
+nombre_des_inscription:
+ path: /form/inscription 
+ defaults:
+   _title: Inscription
+   _form:  \Drupal\nombre_des_inscription\Form\NombreInscription
+ requirements:
+   _permission: 'access content' 

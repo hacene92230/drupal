@@ -1,0 +1,7 @@
+form_page_dbase:
+ path: /page/dbase
+ defaults:
+  
+   _form:  \Drupal\form_page_dbase\Form\FormPageDbase
+ requirements:
+   _permission: 'access content' 

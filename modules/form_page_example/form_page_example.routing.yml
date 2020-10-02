@@ -1,0 +1,7 @@
+form_page_example:
+ path: /form/example 
+ defaults:
+  
+   _form:  \Drupal\form_page_example\Form\FormPageExample
+ requirements:
+   _permission: 'access content' 

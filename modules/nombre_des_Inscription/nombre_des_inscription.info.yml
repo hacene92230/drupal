@@ -1,0 +1,6 @@
+name: Inscription Formule
+description: Inscription Formule
+package: Custom 
+type: module 
+version: 0.01 
+core: 8.x

@@ -1,0 +1,45 @@
+<?php
+function form_page_dbase_schema() {
+    
+    $schema['form_1'] = array(
+
+    'description' => 'The base table for nodes.',
+    'fields' => array(
+        'id' => array(
+            'description' => 'Cle Primaire de latable.',
+            'type' => 'serial',
+            'unsigned' => TRUE,
+            'not null' => TRUE),
+          
+          'name' => array(
+            'description' => 'Le nom de la personne',
+            'type' => 'varchar',
+            'length' => 255,
+            'not null' => TRUE,
+            'default' => ''),
+    
+          'birth_date' => array(
+            'description' => 'Date de naissance de la personne',
+            'type' => 'int',
+            'length' => 255,
+            'not null' => TRUE),
+        
+          'age' => array(
+            'description' => 'Age nom de la personne',
+            'type' => 'int',
+            'length' => 255,
+            'not null' => TRUE),
+    
+          'gender' => array(
+            'description' => 'La civite  nom de la personne',
+            'type' => 'int',
+            'length' => 255,
+            'not null' => TRUE),
+      ),
+
+    'primary key' => array('nid'),
+  );
+  
+	return $schema;
+
+  }

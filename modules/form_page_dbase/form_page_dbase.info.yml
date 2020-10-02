@@ -1,0 +1,5 @@
+name: Form Page Dbase
+type: module
+description: 'Formulaire Insertion dans la Base de données'
+package: Custom
+core: 8.x
